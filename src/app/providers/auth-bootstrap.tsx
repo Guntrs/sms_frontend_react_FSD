@@ -26,7 +26,7 @@ export function AuthBootstrap() {
       .finally(() => {
         setHydrated(true)
       })
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [token]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return null
 }
